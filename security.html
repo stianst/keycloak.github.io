@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>Keycloak - Documentation</title>
+    <title>Keycloak - Security</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Keycloak is an open source identity and access management solution">
     <meta name="author" content="Keycloak Team">
@@ -78,107 +78,38 @@
 
 <div class="page-section">
     <div class="container">
-        <h1>Documentation - 3.4</h1>
+        <h1>Reporting security vulnerabilities</h1>
 
         <p>
-            For older releases go <a href="documentation-archive.html">here</a>.
+            When reporting a security vulnerability please do not disclose the details publicly. This includes our
+            user mailing lists. Instead contact <a href="mailto:keycloak-security@lists.jboss.org">keycloak-security@lists.jboss.org</a> or create a JIRA issue and mark it as security sensitive. The Keycloak team will acknowledge your e-mail, and you will receive a response indicating the next steps in handling your report.
         </p>
 
-<h2>Guides</h2>
+        <p>
+            To report a security vulnerability:
+        </p>
 
+        <ul>
+            <li>
+                Go to <a href="https://issues.jboss.org/browse/KEYCLOAK" target="_blank">JIRA</a> and create a new issue
+            </li>
+            <li>
+                Before saving the issue make sure the <b>This issue is security relevant</b> checkbox is checked. This
+                makes the details in the issue only visible to the core Keycloak team and yourself.
+            </li>
+            <li>
+                Please provide as much information about the issue as possible when contacting the list. This will contribute to a better response time.
+            </li>
+            <li>
+                If you have a patch or patches to submit, please include them in the email using <a href="https://www.kernel.org/pub/software/scm/git/docs/git-format-patch.html">git format-patch</a>. But do not file a pull request on GitHub, unless you coordinated it with the team.
+            </li>
+        </ul>
 
-<table class="table table-bordered table-striped">
-    <tbody>
-    <tr>
-        <td>
-            <a href="docs/latest/getting_started/index.html" target="_blank">
-                Getting Started
-            </a>
-        </td>
-        <td>
-            How to get started with Keycloak
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="docs/latest/server_installation/index.html" target="_blank">
-                Server Installation and Configuration
-            </a>
-        </td>
-        <td>
-            Installation and offline configuration of the Keycloak server
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="docs/latest/securing_apps/index.html" target="_blank">
-                Securing Applications and Services
-            </a>
-        </td>
-        <td>
-            How to secure applications and services with Keycloak
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="docs/latest/server_admin/index.html" target="_blank">
-                Server Administration
-            </a>
-        </td>
-        <td>
-            Management and runtime configuration of the Keycloak server
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="docs/latest/server_development/index.html" target="_blank">
-                Server Developer
-            </a>
-        </td>
-        <td>
-            Creating themes and providers to customize the Keycloak server
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="docs/latest/authorization_services/index.html" target="_blank">
-                Authorization Services
-            </a>
-        </td>
-        <td>
-            Centrally manage fine-grained permissions for applications and services
-        </td>
-    </tr>
-    </tbody>
-</table>
-
-<h2>API Documentation</h2>
-
-<table class="table table-bordered table-striped">
-    <tbody>
-    <tr>
-        <td>
-            <a href="docs-api/3.4/javadocs/index.html" target="_blank">
-                JavaDoc
-            </a>
-        </td>
-        <td>
-            Documentation for Java API
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="docs-api/3.4/rest-api/index.html" target="_blank">
-                Administration REST API
-            </a>
-        </td>
-        <td>
-            Documentation for the Adminstration RESTful API
-        </td>
-    </tr>
-    </tbody>
-</table>
-    </div>
+        <h3>Resources</h3>
+        <ul>
+            <li><a href="https://issues.jboss.org/browse/KEYCLOAK" target="_blank">JIRA</a></li>
+            <li><a href="mailto:keycloak-security@lists.jboss.org">keycloak-security@lists.jboss.org</a></li>
+        </ul>
 </div>
 
 		</div>
